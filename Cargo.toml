@@ -1,0 +1,10 @@
+[package]
+name = "embedded-utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[features]
+default = ["time"]
+time = []
