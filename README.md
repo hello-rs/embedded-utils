@@ -19,11 +19,11 @@ embedded-utils = { version = "0.1.0" }
 
 2. Use `time` for processing time.:
 
-```rust
+```rust,no_run
 use embedded_utils::time::{DateTime, TimeZone};
 
 let datetime = DateTime::from_unix_millis(1704067199998, TimeZone::AsiaShanghai);
-info!("datetime year is {}", datetime.year);
+println!("datetime year is {}", datetime.year);
 ```
 
 ## License

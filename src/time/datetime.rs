@@ -3,10 +3,10 @@ use crate::time::TimeZone;
 /// DateTime is a Unix and UTC conversion util.
 ///
 /// Example of converting a Unix to a DateTime UTC.
-/// ```no_run
+/// ```rust,no_run
 /// use embedded_utils::time::{DateTime, TimeZone};
 ///
-/// let datetime = DateTime::from_unix_millis(1704067199998, TimeZone::AsiaShanghai);
+/// let datetime = DateTime::from_unix_millis(1704067199998, TimeZone::UTC);
 /// println!("datetime: {:?}", datetime);
 /// ```
 #[derive(core::fmt::Debug)]

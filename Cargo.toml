@@ -2,6 +2,12 @@
 name = "embedded-utils"
 version = "0.1.0"
 edition = "2021"
+authors = ["tushantong <645187582@qq.com>"]
+description = "`embedded-utils` provides some features in Rust(no_std) embedded systems."
+repository = "https://github.com/hello-rs/embedded-utils"
+license = "MIT OR Apache-2.0"
+keywords = ["embedded-hal", "embedded-hal-async", "no-std", "embedded"]
+readme = "README.md"
 
 [dependencies]
 
