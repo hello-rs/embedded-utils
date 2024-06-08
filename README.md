@@ -1,6 +1,6 @@
 # embedded-utils
 
-`embedded-utils` provides some features in Rust(no_std) embedded systems.
+embedded-utils provides some utils in Rust(no_std) embedded systems.
 
 ## Crate Feature Flags
 
